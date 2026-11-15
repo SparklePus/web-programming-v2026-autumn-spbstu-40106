@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+.dialog {
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
